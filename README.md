@@ -12,7 +12,7 @@ Descrição........: Script para monitoramento de atualizações do Proxmox VE e
 
 # 📦 Proxmox Update Report
 
-O **Proxmox Update Report** é uma ferramenta desenvolvida para automatizar a verificação de atualizações em servidores Proxmox VE, fornecendo relatórios detalhados e notificações por e-mail com classificação de criticidade.
+O **Proxmox Update Report** é um script para automatizar a verificação de atualizações em servidores Proxmox VE, fornecendo relatórios detalhados e notificações por e-mail com classificação de criticidade.
 
 A solução analisa pacotes disponíveis para atualização, identifica componentes críticos da plataforma, verifica necessidade de reinicialização do host e gera relatórios consolidados para apoio às atividades de operação e manutenção da infraestrutura.
 
