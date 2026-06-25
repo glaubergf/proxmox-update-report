@@ -148,7 +148,7 @@ Exemplo para execução semanal via Cron:
 Executa:
 
 * Toda segunda-feira
-* 03h00 da manhã - atualiza cache AT
+* 03h00 da manhã - atualiza cache APT
 * 04h00 da manhã - executa o script
 
 ---
