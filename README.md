@@ -142,7 +142,7 @@ Exemplo para execução semanal via Cron:
 
 ```cron
 0 3 * * 1 /usr/bin/apt-get update -qq
-0 4 * * 1 /usr/bin/python3 /root/proxmox-update-report/proxmox-update-notify.py >> /var/log/proxmox-update-report.log 2>&1
+0 4 * * 1 /usr/bin/python3 /root/proxmox-update-report/proxmox-update-notify.py
 ```
 
 Executa:
@@ -165,24 +165,16 @@ O sistema envia:
 
 ---
 
-# 📝 Logs
+# 📝 Log
 
 Arquivo de log:
 
 * /var/log/proxmox-update-notify.log
 
-```text
+```log
 [2026-06-22 04:00:12] ❌ ERRO SMTP: [Errno -3] Temporary failure in name resolution
 [2026-06-23 04:00:02] ℹ️ Check executado: Host=pve.homelab.mcn Status=CRÍTICO Updates=17 
 [2026-06-23 04:00:06] ✅ E-mail enviado com sucesso (Status=CRÍTICO, Updates=17)
-```
-
-* /var/log/proxmox-update-report.log 
-
-```text
-❌ ERRO ao enviar e-mail: [Errno -3] Temporary failure in name resolution
-Anexo: packages-crítico-pve-homelab-mcn-20260623-040002.txt
-Notificação enviada com sucesso.
 ```
 
 ---
